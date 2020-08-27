@@ -1,14 +1,8 @@
 .our {
-    min-height: 472;
+    min-height: 472px;
     background-color: #f6f6f6;
-    &__text {
-        display: block;
-        color: #0d0d0d;
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-        margin-top: 70px;
-    }
+    padding: 69px 0 78px 0;
+    
     &__wrapper {
         margin: 0 auto;
         display: flex;
