@@ -1,0 +1,34 @@
+.review {
+    min-height: 930px;
+    &__item {
+        display: flex;
+        margin-top: 70px;
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 170px;
+            
+        }
+    }
+    &__descr {
+        padding: 0 62px 0 68px ;
+    }
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marafon {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text {
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
